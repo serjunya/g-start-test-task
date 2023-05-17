@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  api:
+    image: serjunya/g_start:api
+    ports:
+      - 5273:80
+  ui:
+    image: serjunya/g_start:ui
+    ports:
+      - 3000:3000
+      
